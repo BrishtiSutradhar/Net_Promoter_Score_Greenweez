@@ -1,0 +1,11 @@
+###To verify that this is a primary key, we can count the distinct orders_id and compare them to the total number of rows to verify that there is no duplication.
+
+SELECT
+  DISTINCT orders_id
+FROM
+ brishti-project.course14.Gwz_sales
+### How many different transporter exists in this table
+SELECT
+  DISTINCT transporter
+FROM
+ brishti-project.course14.gwz_nps
