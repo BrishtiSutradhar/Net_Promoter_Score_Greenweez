@@ -1,0 +1,5 @@
+
+SELECT 
+	* 
+FROM `course14.gwz_nps`
+ORDER BY date_date DESC, orders_id DESC
